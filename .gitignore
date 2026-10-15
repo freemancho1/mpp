@@ -1,0 +1,27 @@
+# 환경변수 및 키
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# 데이터 (데이터 루트는 ~/datas/mpp 이며 저장소에 포함하지 않음)
+data/
+datas/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 가상환경/IDE
+.venv/
+venv/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
