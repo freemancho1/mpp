@@ -1,0 +1,19 @@
+# 경로 설정
+# - 데이터 루트 결정 순서: 환경변수 MPP_DATA_ROOT → 아래 data_root 기본값
+# - 하위 폴더 이름은 README.md 7.5절 구성을 따른다
+# - 데이터 루트는 저장소 밖에 둔다. raw/는 추가만 하고 수정·삭제하지 않는다
+
+data_root: ~/datas/mpp
+
+subdirs:
+  raw: raw
+  raw_ticks: raw/ticks
+  raw_orderbook: raw/orderbook
+  raw_daily: raw/daily
+  raw_text: raw/text
+  bars: bars
+  features: features
+  models: models
+  backtests: backtests
+  ledger: ledger
+  logs: logs

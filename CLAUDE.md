@@ -31,6 +31,7 @@
 - Ubuntu 24.04, Anaconda 환경 `ai_dev`
 - 패키지를 새로 설치하거나 의존성을 추가할 때는 먼저 이유와 함께 확인받는다
 - 실행·테스트 명령은 구성이 정해지면 이 절에 추가한다
+- 테스트: 저장소 루트에서 `conda run -n ai_dev pytest` (설정은 `pytest.ini`, `src/`를 import 경로에 포함)
 
 ---
 

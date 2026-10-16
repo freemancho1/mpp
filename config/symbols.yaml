@@ -1,0 +1,12 @@
+# 종목 목록
+# - 1단계는 삼성전자(005930) 단일 종목
+# - 이후 사용자가 선택한 N개(N<10) 종목으로 확장한다. 항목만 추가하면 되도록 리스트로 둔다
+# - enabled: false 인 종목은 수집·매매 대상에서 제외한다
+
+max_symbols: 9
+
+symbols:
+  - code: "005930"
+    name: 삼성전자
+    market: KOSPI
+    enabled: true
